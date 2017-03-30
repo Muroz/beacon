@@ -15,6 +15,7 @@
 		92E80E851E89727600665379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E80E831E89727600665379 /* LaunchScreen.storyboard */; };
 		92E80E901E89727600665379 /* beaconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E80E8F1E89727600665379 /* beaconsTests.m */; };
 		92E80E9B1E89727600665379 /* beaconsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E80E9A1E89727600665379 /* beaconsUITests.m */; };
+		92E80EAA1E89750D00665379 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E80EA91E89750D00665379 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		92E80E961E89727600665379 /* beaconsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beaconsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E80E9A1E89727600665379 /* beaconsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beaconsUITests.m; sourceTree = "<group>"; };
 		92E80E9C1E89727600665379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E80EA91E89750D00665379 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E80EAA1E89750D00665379 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				92E80E8E1E89727600665379 /* beaconsTests */,
 				92E80E991E89727600665379 /* beaconsUITests */,
 				92E80E731E89727600665379 /* Products */,
+				92E80EA81E89750D00665379 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +142,14 @@
 				92E80E9C1E89727600665379 /* Info.plist */,
 			);
 			path = beaconsUITests;
+			sourceTree = "<group>";
+		};
+		92E80EA81E89750D00665379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92E80EA91E89750D00665379 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
