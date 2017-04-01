@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		695DD29A1E8ECB4D00D112A5 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 695DD2981E8ECB4D00D112A5 /* DBManager.m */; };
+		695DD29B1E8ECB4D00D112A5 /* beacons.sql in Resources */ = {isa = PBXBuildFile; fileRef = 695DD2991E8ECB4D00D112A5 /* beacons.sql */; };
 		92E80E771E89727600665379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E80E761E89727600665379 /* main.m */; };
 		92E80E7A1E89727600665379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E80E791E89727600665379 /* AppDelegate.m */; };
 		92E80E7D1E89727600665379 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E80E7C1E89727600665379 /* ViewController.m */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		695DD2971E8ECB4D00D112A5 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = ../../Desktop/SQLtest/DBManager.h; sourceTree = "<group>"; };
+		695DD2981E8ECB4D00D112A5 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = ../../Desktop/SQLtest/DBManager.m; sourceTree = "<group>"; };
+		695DD2991E8ECB4D00D112A5 /* beacons.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = beacons.sql; path = ../../beacons.sql; sourceTree = "<group>"; };
 		92E80E721E89727600665379 /* beacons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beacons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E80E761E89727600665379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92E80E781E89727600665379 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +110,9 @@
 		92E80E741E89727600665379 /* beacons */ = {
 			isa = PBXGroup;
 			children = (
+				695DD2971E8ECB4D00D112A5 /* DBManager.h */,
+				695DD2981E8ECB4D00D112A5 /* DBManager.m */,
+				695DD2991E8ECB4D00D112A5 /* beacons.sql */,
 				92E80E781E89727600665379 /* AppDelegate.h */,
 				92E80E791E89727600665379 /* AppDelegate.m */,
 				92E80E7B1E89727600665379 /* ViewController.h */,
@@ -261,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695DD29B1E8ECB4D00D112A5 /* beacons.sql in Resources */,
 				92E80E851E89727600665379 /* LaunchScreen.storyboard in Resources */,
 				92E80E821E89727600665379 /* Assets.xcassets in Resources */,
 				92E80E801E89727600665379 /* Main.storyboard in Resources */,
@@ -291,6 +300,7 @@
 				92E80E7D1E89727600665379 /* ViewController.m in Sources */,
 				92E80E7A1E89727600665379 /* AppDelegate.m in Sources */,
 				92E80E771E89727600665379 /* main.m in Sources */,
+				695DD29A1E8ECB4D00D112A5 /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +538,7 @@
 				92E80EA11E89727600665379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92E80EA21E89727600665379 /* Build configuration list for PBXNativeTarget "beaconsTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +547,7 @@
 				92E80EA41E89727600665379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92E80EA51E89727600665379 /* Build configuration list for PBXNativeTarget "beaconsUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +556,7 @@
 				92E80EA71E89727600665379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
